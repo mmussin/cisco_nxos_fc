@@ -1,5 +1,5 @@
 """
-Simple script that parses through Cisco IOS 'show interface' output and prints certain lines that matched defined search criteria.
+Simple script that parses through Cisco IOS 'show interface' output and prints certain lines that match search filter.
 The output is somewhere equivalent to using pipe with show command, e.g 'show interface | include tunnel|Description|Internet'.
 """
 __author__ = 'mmussin'
