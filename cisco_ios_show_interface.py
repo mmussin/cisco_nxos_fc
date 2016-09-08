@@ -4,7 +4,6 @@ The output is somewhere equivalent to using pipe with show command, e.g 'show in
 """
 __author__ = 'mmussin'
 
-import os
 import sys
 import re
 
