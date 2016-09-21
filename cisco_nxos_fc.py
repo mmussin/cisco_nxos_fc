@@ -114,9 +114,9 @@ class Zone():
     __doc__ = ' Class structure that holds information about FC zone'
 
     zone = {'server_name'   : '',
-            'port_init'     : '00-00-00-00-00-00-00-00',
-            'port_target_1' : '11-11-11-11-11-11-11-11',
-            'port_target_2' : '22-22-22-22-22-22-22-22'}
+            'port_init'     : '',
+            'port_target_1' : '',
+            'port_target_2' : ''}
 
     def writeZone(self):
         return ('\nzone name %s vsan 2\n\tmember pwwn %s\n\tmember pwwn %s\n\tmember pwwn %s' %
