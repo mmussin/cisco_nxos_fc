@@ -1,4 +1,4 @@
-# cisco_utils
+# cisco_nxos_fc
 
 The program parses through output of well-known cisco ios ‘show interfaces’ command and applies filters the same way as you would applied them using pipe e.g ‘show interfaces | include loopback’. 
 cisco_sh_int.py filter filename
